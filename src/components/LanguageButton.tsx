@@ -4,6 +4,7 @@ import React from 'react';
 interface LanguageSwitcherProps {
   languages: { code: string; label: string }[];
   method: Function;
+  selected: string;
 }
 
 const LanguageButton = ({ languages, method }: LanguageSwitcherProps) => {

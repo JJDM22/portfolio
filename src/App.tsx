@@ -26,7 +26,7 @@ function App() {
             {i18n.t('welcome')}
           </p>
         
-          <LanguageButton languages={languages} method={handleLanguageChange}></LanguageButton>
+          <LanguageButton selected={language} languages={languages} method={handleLanguageChange}></LanguageButton>
           <a
             className="App-link"
             href="https://reactjs.org"
